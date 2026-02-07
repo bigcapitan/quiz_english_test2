@@ -1,0 +1,123 @@
+/* Основные стили для викторины */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e8f5e9; /* Светло-зелёный фон */
+    color: #1b5e20; /* Тёмно-зелёный текст */
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #2e7d32; /* Более насыщенный зелёный для заголовка */
+    text-align: center;
+    margin-top: 20px;
+}
+
+h3 {
+    color: #388e3c; /* Ещё один оттенок зелёного */
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    font-size: 18px;
+}
+
+a button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #ffffff; /* Белый текст */
+    background-color: #4caf50; /* Зелёная кнопка */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+a button:hover {
+    background-color: #388e3c; /* Более тёмный зелёный при наведении */
+}
+
+/* Основные стили для страницы "Про неё" */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3e5f5; /* Светло-фиолетовый фон */
+    color: #4a148c; /* Тёмно-фиолетовый текст */
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #6a1b9a; /* Насыщенный фиолетовый для заголовка */
+    text-align: center;
+    margin-top: 20px;
+}
+
+h3 {
+    color: #7b1fa2; /* Ещё один оттенок фиолетового */
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    font-size: 18px;
+}
+
+a button {
+    display: block;
+    margin: 20px auto;
+    padding: 30px 54px;
+    font-size: 33px;
+    color: #ffffff; /* Белый текст */
+    background-color: #8e24aa; /* Фиолетовая кнопка */
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+a button:hover {
+    background-color: #6a1b9a; /* Более тёмный фиолетовый при наведении */
+}
+
+/* Адаптивные стили для телефонов */
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    a button {
+        width: 100%;
+        font-size: 14px;
+        padding: 8px 0;
+    }
+}
+
+/* Адаптивные стили для изображений */
+img {
+    max-width: 50%; /* Изображение не выходит за пределы контейнера */
+    height: auto; /* Сохраняет пропорции изображения */
+    display: block;
+    margin: 0 auto; /* Центрирование изображения */
+    border-radius: 10px;
+}
+
+@media (max-width: 600px) {
+    img {
+        max-width: 90%; /* Уменьшение размера изображения на маленьких экранах */
+    }
+}
