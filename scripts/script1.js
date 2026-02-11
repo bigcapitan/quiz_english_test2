@@ -40,7 +40,7 @@ const questions = [
         answers: ["is", "am", "are", "be"], 
         correct: 1 
     },
-   { 
+    { 
         question: "Who is a Shakespeare.", 
         answers: ["clay mixer", "cucumber", "undertaker", "writer"], 
         correct: 3
@@ -204,4 +204,5 @@ async function loadLeaderboard() {
 
 
 showQuestion();
+
 
