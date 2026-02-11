@@ -40,6 +40,16 @@ const questions = [
         answers: ["is", "am", "are", "be"], 
         correct: 1 
     }
+   { 
+        question: "Who is a Shakespeare.", 
+        answers: ["clay mixer", "cucumber", "undertaker", "writer"], 
+        correct: 3
+    }
+   { 
+        question: "How say 'Испытание'?", 
+        answers: ["path", "trial", "adventure", "apple"], 
+        correct: 1
+    }
 ];
 
 let currentQuestionIndex = 0;
@@ -191,5 +201,6 @@ async function loadLeaderboard() {
         container.innerHTML = '<h3>Ошибка загрузки</h3>';
     }
 }
+
 
 showQuestion();
