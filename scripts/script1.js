@@ -45,7 +45,7 @@ const questions = [
         answers: ["clay mixer", "cucumber", "undertaker", "writer"], 
         correct: 3
     },
-   { 
+    { 
         question: "How say 'Испытание'?", 
         answers: ["path", "trial", "adventure", "apple"], 
         correct: 1
@@ -204,5 +204,6 @@ async function loadLeaderboard() {
 
 
 showQuestion();
+
 
 
